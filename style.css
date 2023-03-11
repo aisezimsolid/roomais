@@ -1,0 +1,555 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.header a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  gap: 50px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcomeBlock {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.welcomeBlock img {
+  max-width: 92%;
+}
+
+.designBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  height: 40vh;
+}
+.designBlock h1 {
+  color: #1a1a1a;
+  font-size: 48px;
+}
+.designBlock p {
+  line-height: 40px;
+  color: #aaaaaa;
+  font-size: 24px;
+}
+
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.rooms div {
+  max-width: 40%;
+}
+.rooms div img {
+  max-width: 100%;
+}
+
+.theWorld {
+  margin-top: 3rem;
+  text-align: center;
+}
+.theWorld p {
+  color: #4a4a4a;
+  margin-top: 1rem;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  margin-top: 84px;
+  width: 100%;
+}
+.brands div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.people1 {
+  margin-top: 152px;
+  display: flex;
+  justify-content: center;
+  width: 1583px;
+  height: 778px;
+}
+.people1 img {
+  max-width: 1515px;
+}
+.textFlexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 367px;
+  gap: 52px;
+}
+.textFlexible1 {
+  width: 905px;
+  font-size: 40px;
+}
+.textFlexible2 {
+  width: 883px;
+  font-size: 12px;
+  color: #46856e;
+}
+.flexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1583px;
+  height: 340px;
+  gap: 167px;
+}
+.flexible img {
+  margin-left: 26px;
+}
+.generalContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 29px;
+}
+.generalContent p {
+  color: #aaaaaa;
+}
+
+.review-block {
+  background: url("./images/girl.jpg") 0 0 no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 1479px;
+  height: 895px;
+  margin-left: 59px;
+  margin-top: 156px;
+  margin-bottom: 184px;
+}
+.container {
+  width: 50%;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin-left: 196px;
+  margin-top: 163px;
+  font-size: 16px;
+  line-height: 31px;
+}
+.read {
+  font-size: 11px;
+}
+.stars {
+  width: 64%;
+}
+.reviews h2 {
+  color: #ffffff;
+}
+.google {
+  width: 21%;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+.textBlock1 {
+  width: 611px;
+  color: #aaaaaa;
+}
+.textBlock2 {
+  margin-right: 198px;
+}
+.womenBlock {
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 107px;
+}
+.womenBlockContent {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-left: 141px;
+}
+.womenBlockContent p {
+  color: #aaaaaa;
+}
+.handBlock {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 116px;
+  margin-top: 50px;
+}
+.handBlockContent {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-top: 197px;
+  margin-right: 230px;
+}
+.handBlockContent p {
+  color: #aaaaaa;
+}
+.waterBlock {
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.waterBlockContent {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-left: 141px;
+}
+.waterBlockContent p {
+  color: #aaaaaa;
+}
+
+.people2 {
+  margin-top: 154px;
+  display: flex;
+  justify-content: center;
+  width: 1583px;
+  height: 801px;
+}
+.people2 img {
+  max-width: 92%;
+}
+.freeBlock {
+  background-color: #f2f2f2;
+  width: 1338px;
+  height: 520px;
+  margin-left: 126px;
+  margin-bottom: 118px;
+  margin-top: 134px;
+}
+.freeBlock h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  padding: 99px 348px;
+}
+.blocks p {
+  color: #1a1a1a;
+  padding-top: 20px;
+}
+.days2 {
+  padding-top: 13px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: #46856e;
+  border: none;
+  width: 150px;
+  height: 50px;
+  color: white;
+}
+.btn span {
+  color: #aaaaaa;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+}
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b2b2b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer a,
+p {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer p {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.footer .iconsInFooter {
+  display: block;
+}
+.footer input {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  background: none;
+  padding: 15px;
+}
+.footer .checkbox {
+  width: 26px;
+  height: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer .footerText {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer .checkBoxContainer {
+  display: flex;
+  flex-direction: row;
+}
+.burgerMenu {
+  display: none;
+}
+/* // X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... } */
+@media (max-width: 1399.98px) {
+  .header {
+    width: 1579px;
+  }
+  .welcomeBlock {
+    width: 1580px;
+  }
+  .designBlock {
+    height: 73vh;
+    width: 1058px;
+    margin-left: 263px;
+  }
+  .rooms {
+    width: 1514px;
+    margin-left: 20px;
+  }
+  .theWorld {
+    width: 1500px;
+    margin-left: 20px;
+  }
+  .brands {
+    width: 1500px;
+    margin-left: 20px;
+  }
+  .people1 {
+    width: 1548px;
+    margin-left: 20px;
+  }
+  .textFlexible {
+    width: 1526px;
+    margin-left: 20px;
+  }
+  .review-block {
+    width: 1470px;
+  }
+  .textBlock {
+    width: 1500px;
+    margin-left: 20px;
+  }
+  .womenBlock {
+    width: 1217px;
+  }
+  .handBlock {
+    width: 1469px;
+  }
+  .people2 {
+    width: 1581px;
+  }
+  .footer {
+    width: 1583px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .header a {
+    font-size: 25px;
+  }
+  .designBlock {
+    width: 1040px;
+    height: 320px;
+    margin-left: 285px;
+    gap: 117px;
+  }
+  .womenBlock {
+    height: 658px;
+    width: 1238px;
+    margin-left: 74px;
+  }
+  .womenBlockContent h2 {
+    font-size: 35px;
+  }
+  .womenBlockContent p {
+    font-size: 20px;
+  }
+  .handBlock {
+    width: 1479px;
+    gap: 31px;
+  }
+  .handBlockContent h2 {
+    font-size: 35px;
+  }
+  .handBlockContent p {
+    font-size: 20px;
+  }
+  .waterBlock {
+    height: 658px;
+    width: 1238px;
+    margin-left: 74px;
+  }
+  .waterBlockContent h2 {
+    font-size: 35px;
+  }
+  .waterBlockContent p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header a {
+    font-size: 30px;
+  }
+  .logoRoom {
+    width: 62px;
+  }
+  .cart img {
+    width: 36px;
+  }
+  .review-block {
+    padding: 50px 0;
+  }
+  .reviews {
+    padding-left: 50px;
+  }
+  .review h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  .designBlock {
+    width: 1292px;
+    height: 387px;
+    margin-left: 172px;
+    gap: 78px;
+  }
+  .designBlock p {
+    font-size: 34px;
+  }
+  .theWorld p {
+    font-size: 26px;
+  }
+  .brands {
+    width: 1656px;
+    margin-left: -57px;
+    align-items: 0;
+  }
+  .flexible {
+    gap: 62px;
+  }
+  .flexible p {
+    font-size: 22px;
+  }
+  .review {
+    width: 684px;
+  }
+  .review h2 {
+    font-size: 35px;
+  }
+  .textBlock {
+    font-size: 20px;
+  }
+  .textBlock2 {
+    margin-right: 114px;
+  }
+  .womenBlockContent p {
+    width: 555px;
+    font-size: 29px;
+  }
+  .handBlockContent {
+    margin-right: 110px;
+  }
+  .handBlockContent p {
+    width: 555px;
+    font-size: 29px;
+  }
+  .waterBlockContent p {
+    width: 555px;
+    font-size: 29px;
+  }
+  .blocks img {
+    width: 107px;
+  }
+  .blocks p {
+    font-size: 18px;
+  }
+  .freeBlock h1 {
+    font-size: 57px;
+  }
+  .btn button {
+    width: 203px;
+    height: 69px;
+    font-size: 18px;
+  }
+  .btn span {
+    font-size: 17px;
+  }
+}
+@media (max-width: 575.98px) {
+  .menu {
+    display: none;
+  }
+  .cart {
+    display: none;
+  }
+  .burgerMenu {
+    display: block;
+  }
+  .header {
+    padding-top: 49px;
+  }
+  .logoRoom {
+    width: 72px;
+  }
+}
